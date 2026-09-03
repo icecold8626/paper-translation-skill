@@ -27,14 +27,14 @@
 将以下两个文件一起上传到 ChatGPT：
 
 - 待翻译的英文论文 PDF
-- [`paper_translate_v2.md`](./paper_translate_v2.md)
+- [`SKILL.md`](./SKILL.md)
 
 ### 2. 发送指令
 
 可以直接输入：
 
 ```text
-按照 paper_translate_v2.md 的要求，完整翻译这篇论文并输出中文 PDF。
+按照 SKILL.md 的要求，完整翻译这篇论文并输出中文 PDF。
 ```
 
 提示词本身已经包含完整执行要求，一般不需要再补充大量说明。
@@ -170,11 +170,11 @@
 
 ```text
 English Paper PDF
-        +
-paper_translate_v2.md
-        ↓
+    +
+SKILL.md
+    ↓
 ChatGPT Web
-        ↓
+    ↓
 Chinese translated PDF
 ```
 
@@ -185,10 +185,8 @@ Chinese translated PDF
 ```text
 .
 ├── README.md
-└── paper_translate_v2.md
+└── SKILL.md
 ```
-
-如果后续版本稳定，可以将 `paper_translate_v2.md` 重命名为更简洁的 `paper_translate.md`。
 
 ## 说明
 
